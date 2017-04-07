@@ -5,7 +5,7 @@ var students = [
   { id: 4, name: "alex",     age: 30 }
 ];
 
-
+// from I modified the code from http://www.javascriptkit.com/javatutors/arraysort.shtml
 // sort by value
 var numericSort = function (a, b) {
   return b.age - a.age;
